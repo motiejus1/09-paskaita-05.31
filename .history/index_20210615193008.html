@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 paskaita</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px 100px auto;
+            grid-column-gap: 10px ;
+            grid-row-gap: 10px ;
+        }
+
+        .zalia {
+            background-color: green;
+        }
+
+        .raudona {
+            background-color: red;
+        }
+
+        .geltona {
+            background: greenyellow;
+        }
+
+        .grid-item-1 {
+            grid-column-start: 1 ;
+            grid-column-end: 3 ;
+            grid-row-start: 1 ;
+            grid-row-end: 3 ;
+        }
+
+        .grid-item {
+            display:grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-container {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item grid-item-1 zalia">
+            1
+        </div>
+        <div class="grid-item grid-item-2 raudona">
+            2
+        </div>
+        <div class="grid-item grid-item-3 geltona">3</div>
+        <div class="grid-item grid-item-4 zalia">4</div>
+        <div class="grid-item geltona">5</div>
+        <div class="grid-item raudona">6</div>
+        <div class="grid-item zalia">7</div>
+        <div class="grid-item geltona">8</div>
+        <div class="grid-item zalia">9</div>
+        <div class="grid-item zalia">10</div>
+        <div class="grid-item raudona">11</div>
+        <div class="grid-item geltona">12</div>
+        <div class="grid-item zalia">13</div>
+        <div class="grid-item geltona">14</div>
+        <div class="grid-item raudona">15</div>
+        <div class="grid-item zalia">16</div>
+        <div class="grid-item geltona">17</div>
+        <div class="grid-item zalia">18</div>
+        <div class="flex-container zalia">18</div>
+    </div>
+    
+</body>
+</html>
